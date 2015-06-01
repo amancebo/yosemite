@@ -54,8 +54,8 @@ class ACameraControl(cameraControl.CameraControl):
         if not self.camera:
             if hdebug.getDebug():
                 print " Initializing Andor Camera"
-            if os.path.exists("D:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\"):
-                self.camera = hamamatsu.HamamatsuCamera("D:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\")
+            if os.path.exists(C:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\"):
+                self.camera = hamamatsu.HamamatsuCamera(C:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\")
             #else:
             #   self.camera = andor.AndorCamera("c:/Program Files/Andor SOLIS/")
 
