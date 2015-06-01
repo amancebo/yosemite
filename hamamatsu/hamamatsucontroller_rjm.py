@@ -94,7 +94,7 @@ def _getStatus_():
     err = self.f_getstatus(hamamatsu, byref(status))
     return status.value
 
-#DCAM_PATH = self.dcam_path = "C:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\"
+#DCAM_PATH = self.dcam_path = "D:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\"
 
 instantiated = 0
 class HamamatsuCamera:
@@ -115,7 +115,7 @@ class HamamatsuCamera:
 
         self.allocatedBuffers = 20
         
-        #self.dcam_path = "C:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\"
+        #self.dcam_path = "D:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\"
         #self.dcam = windll.LoadLibrary(self.dcam_path+"dcamapi")
 
         res1 = c_void_p(0)
@@ -515,7 +515,7 @@ class HamamatsuCamera:
 
 
 if __name__ == '__main__':
-    cam_api = HamamatsuCamera("C:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\")
+    cam_api = HamamatsuCamera("D:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\")
     #cam_api.openCamera()
     print "Camera: ", cam_api.getString(0x04000104)
     print "Version: ", cam_api.getString(0x04000105)

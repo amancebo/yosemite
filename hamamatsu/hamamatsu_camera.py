@@ -105,7 +105,7 @@ def checkStatus(fn_return, fn_name= "unknown"):
 #
 # Initialization
 #
-DCAM_PATH = "C:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\"
+DCAM_PATH = "D:\\Programs\\DCAM-SDK (1112)\\bin\\win32\\"
 #dcam = ctypes.windll.dcamapi
 dcam = ctypes.windll.LoadLibrary(DCAM_PATH+"dcamapi")
 temp = ctypes.c_int32(0)
