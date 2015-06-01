@@ -1,0 +1,25 @@
+2015-06-01 15:45:29,102:hal4000:INFO:__main__.__init__
+2015-06-01 15:45:29,103:hal4000:INFO:    0 <__main__.Window object at 0x7f7fd57a9180>
+2015-06-01 15:45:29,103:hal4000:INFO:    1 <sc_library.parameters.StormXMLObject object at 0x7f7fd57c1a10>
+2015-06-01 15:45:29,103:hal4000:INFO:    2 <sc_library.parameters.StormXMLObject object at 0x7f7fd57d23d0>
+2015-06-01 15:45:29,123:hal4000:INFO:  camera.classicSingleCamera.__init__
+2015-06-01 15:45:29,123:hal4000:INFO:      0 <camera.classicSingleCamera.ACamera object at 0x7f7fc805ab98>
+2015-06-01 15:45:29,123:hal4000:INFO:      1 <sc_library.parameters.StormXMLObject object at 0x7f7fd57d2390>
+2015-06-01 15:45:29,123:hal4000:INFO:      2 <sc_library.parameters.StormXMLObject object at 0x7f7fd57d23d0>
+2015-06-01 15:45:29,123:hal4000:INFO:      3 <PyQt4.QtGui.QFrame object at 0x7f7fc8051b98>
+2015-06-01 15:45:29,123:hal4000:INFO:      4 <PyQt4.QtGui.QFrame object at 0x7f7fc8051b00>
+2015-06-01 15:45:29,123:hal4000:INFO:  camera.classicSingleCamera.__init__
+2015-06-01 15:45:29,123:hal4000:INFO:      0 <camera.classicSingleCamera.ACamera object at 0x7f7fc805ab98>
+2015-06-01 15:45:29,123:hal4000:INFO:      1 <sc_library.parameters.StormXMLObject object at 0x7f7fd57d2390>
+2015-06-01 15:45:29,123:hal4000:INFO:      2 <sc_library.parameters.StormXMLObject object at 0x7f7fd57d23d0>
+2015-06-01 15:45:29,123:hal4000:INFO:      3 <PyQt4.QtGui.QFrame object at 0x7f7fc8051b98>
+2015-06-01 15:45:29,123:hal4000:INFO:      4 <PyQt4.QtGui.QFrame object at 0x7f7fc8051b00>
+2015-06-01 15:45:29,123:hal4000:INFO:      5 <__main__.Window object at 0x7f7fd57a9180>
+2015-06-01 15:45:29,124:hal4000:INFO:  camera.singleCamera.__init__
+2015-06-01 15:45:29,124:hal4000:INFO:      0 <camera.classicSingleCamera.ACamera object at 0x7f7fc805ab98>
+2015-06-01 15:45:29,124:hal4000:INFO:      1 <sc_library.parameters.StormXMLObject object at 0x7f7fd57d2390>
+2015-06-01 15:45:29,124:hal4000:INFO:      2 <sc_library.parameters.StormXMLObject object at 0x7f7fd57d23d0>
+2015-06-01 15:45:29,124:hal4000:INFO:      3 <__main__.Window object at 0x7f7fd57a9180>
+2015-06-01 15:45:29,124:hal4000:INFO:  camera.genericCamera.__init__
+2015-06-01 15:45:29,124:hal4000:INFO:      0 <camera.classicSingleCamera.ACamera object at 0x7f7fc805ab98>
+2015-06-01 15:45:29,124:hal4000:INFO:      1 <__main__.Window object at 0x7f7fd57a9180>

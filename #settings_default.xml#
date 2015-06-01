@@ -8,13 +8,13 @@
 
   <!-- camera settings -->
   <emccd_gain type="int">0</emccd_gain>
-  <x_start type="int">512</x_start>
-  <x_end type="int">1535</x_end>
-  <y_start type="int">512</y_start>
-  <y_end type="int">1535</y_end>
+  <x_start type="int">1024</x_start>
+  <x_end type="int">1279</x_end>
+  <y_start type="int">896</y_start>
+  <y_end type="int">1151</y_end>
   <x_bin type="int">1</x_bin>
   <y_bin type="int">1</y_bin>
-  <exposure_time type="float">0.1</exposure_time>
+  <exposure_time type="float">0.05</exposure_time>
   <frame_transfer_mode type="int">1</frame_transfer_mode>
   <temperature type="int">-70</temperature>
   <external_trigger type="int">0</external_trigger>
@@ -35,12 +35,12 @@
 
   <!-- film settings -->
   <want_big_endian type="int">1</want_big_endian>
-  <directory type="string">C:\Data\</directory>
+  <directory type="string"C:\Data\<directory>
   <filename type="string">movie</filename>
   <acq_mode type="string">run_till_abort</acq_mode>
   <!--  <acq_mode type="string">fixed_length</acq_mode> -->
   <frames type="int">600</frames>
-  <logfile type="string">C:\Data\image_log.txt</logfile>
+  <logfile type="string"C:\Data\image_log.txt</logfile>
   <extensions type="string-array">,A647,Cy5,Cy3,Cy2,A405,FITC,YFP,GFP,BF</extensions>
   <auto_increment type="int">1</auto_increment>
   <want_bell type="int">1</want_bell>
@@ -86,7 +86,7 @@
   <have_stage type="int">1</have_stage>
   <small_step_size type="float">5.0</small_step_size>
   <large_step_size type="float">25.0</large_step_size>
-  <x_sign type="int">-1</x_sign>
+  <x_sign type="int">1</x_sign>
   <flip_axis type="int">1</flip_axis>
   <stage_speed type="float">2.0</stage_speed>
   <y_sign type="int">-1</y_sign>
